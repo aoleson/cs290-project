@@ -18,8 +18,9 @@
 }
 
 .centered_image {
-    display:block;
-    margin:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* nav {
