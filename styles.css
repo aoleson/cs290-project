@@ -1,0 +1,53 @@
+/*  Name: Alannah Oleson, Corynna Park
+    Date modified: 11/12/15
+    Filename: styles.css
+    */
+
+.white_bkgrnd {
+    width:80%;
+    margin:auto;
+    background-color:white;
+    border:1px solid black;
+    border-radius:20px;
+    padding:10px;
+}
+
+.centered {
+    text-align:center;
+    margin:5px;
+}
+
+.centered_image {
+    display:block;
+    margin:auto;
+}
+
+/* nav {
+    text-align:center;
+    font-family:sans-serif;
+    font-weight:bolder;
+    margin:auto;
+    padding:5px;
+    width:80%;
+    background-color:white;
+    border:1px solid black;
+    border-radius:20px;
+} */
+
+#schedule {
+	text-align:center;
+	margin:auto;
+}
+
+.top {
+	border-bottom:3px solid black;
+	padding:3px;
+}
+
+.left {
+	border-right:3px solid black;
+	padding:3px;
+}
+
+
+
