@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<!-- About us page for freeFoodAtOSU.com
+	<!-- Main public calendar for freeFoodAtOSU.com
 		Name: Alannah Oleson, Corynna Park
 		Date modified: 11/12/15
-		Filename: about.html
+		Filename: calendar.html
 	-->
 	<head>
-		<title>About Us</title>
+		<title>Calendar</title>
 		<link rel="stylesheet" href="./styles/styles.css"/>
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
-		<script src="./js/mapScript.js"></script>
+		<script type="text/javascript" src="./calendar/script.js"></script>
+        <link rel="stylesheet" href="./calendar/style.css" />
 	</head>
 	
 	<body>
-	<h1 id="">About Free Food @ OSU</h1>
+	<h1 id="">Upcoming Events - Free Food @ OSU</h1>
         <nav>
 			&nbsp;&nbsp;<a class="" href="./index.html">Home</a>
 			&nbsp;  |  &nbsp;
@@ -27,15 +27,23 @@
 			&nbsp;  
 		</nav>
         <br/><br/>
-        <div id="googleMap"></div>
+        <div id="cal">
+            <div class="container">
+                <div class="controls">
+                <p class="next label" onclick="nextMonth()"> Next </p>
+                <p class="previous label" onclick="previousMonth()"> Prev </p>
+                <p id="current-month" class="label bold">January</p>
+            </div>
+
+            <div class="calendar" id="calendar">
+            </div>
+       </div>
+        <br/><br/>
         <section class="centered">
             <h3 class="">Words (description?)</h3>
             <p>words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
         </section>
         <br/>
-        <section class ="">
-            <button type="button">Become a member today!</button>
-        </section>
 	</body>
 	
 	<!--Hey Amber-->
