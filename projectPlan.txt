@@ -1,0 +1,99 @@
+---freeFoodAtOSU.com---
+
+
+HTML done: Nov 15th (Sunday)
+CSS done: Nov 20th (Friday)
+JS/plugins/APIs done: Nov 20th (Friday)
+PHP/mySQL done: Nov 27th (Friday)
+Everything done: Nov 29th (Sunday)
+Testing done: Dec 1st (Tuesday)
+Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
+
+
+
+------------ToDo-----------------
+
+* Create header and footer code and figure out how to include them on each page (Alannah Nov 15th)
+
+* Make the createEvent page form (including the map) (Alannah Nov 15th)
+
+* Create the logo and save as an image (Alannah Nov 17th)
+
+* Put the map onto the about us page (Alannah Nov 17th)
+
+* Create JS slideshow for homepage and put it on there (Cory Nov 20th)
+    Get at least 5 images
+    Do JS code that allows for advancing on a timer
+
+* Make the CSS for (Cory Nov 20th)
+    the homepage
+    the about us page
+    the calendar
+    the login/logout pages
+    the createEvent
+    the createAccount
+    
+* Make a table based calendar and give it appropriate identifiers
+
+* Create the tables in the database
+    Users table
+    Events table
+    
+* Link the databases to the pages that need them
+    
+
+
+
+------------SiteMap-----------
+
+-Home page
+    Header
+    Nav
+    Logo
+    Slideshow
+    Description
+    Buttons
+    Footer
+
+-Create account
+    Header
+    Nav
+    Logo
+    Form
+        Check that username is unique
+        Check that passwords are the same
+        Read info into database
+    Footer
+
+-About Us
+    Header
+    Nav
+    Map of events on calendar
+    Description
+    Contact info
+    Footer
+
+-Public calendar
+    Header
+    Nav
+    Logo
+    Description
+    Create an event button 
+        --Create an event page
+            Header
+            Logo
+            Form with fields
+            Map that gives ID that user can put place ID in form
+            Footer
+    Footer   
+    
+-Login
+    Header
+    Logo
+    Form for logging in
+    Footer
+
+-Logout
+    Header
+     (figure out what this needs)
+    Footer
