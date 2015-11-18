@@ -6,18 +6,16 @@ CSS done: Nov 20th (Friday)
 JS/plugins/APIs done: Nov 20th (Friday)
 PHP/mySQL done: Nov 27th (Friday)
 Everything done: Nov 29th (Sunday)
-Testing done: Dec 1st (Tuesday)
+Testing done: Dec 1st (Tuesday) (drop dead)
 Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 
 
 
 ------------ToDo-----------------
 
-* Create header and footer code and figure out how to include them on each page (Alannah Nov 15th)
+* Create header and footer code and figure out how to include them on each page (Alannah Nov 15th) [LATE]
 
 * Make the createEvent page form (including the map) (Alannah Nov 15th)
-
-* Create the logo and save as an image (Alannah Nov 17th)
 
 * Put the map onto the about us page (Alannah Nov 17th)
 
@@ -41,6 +39,10 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
     
 * Link the databases to the pages that need them
     
+    
+--DONE--
+* Create the logo and save as an image (Alannah Nov 17th)
+
 
 
 
