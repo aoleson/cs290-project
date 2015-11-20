@@ -17,8 +17,6 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 
 * Put the map onto the about us page (Alannah Nov 17th) [LATE]
 
-* Convert all HTML files to PHP files (Alannah Nov 17th) [LATE]
-
 * Create JS slideshow for homepage and put it on there (Cory Nov 20th)
     Get at least 5 images
     Do JS code that allows for advancing on a timer
@@ -31,8 +29,6 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
     the createEvent
     the createAccount
     
-* Encapsulate header, footer, and nav code and include on each PHP page (Alannah Nov 20th)
-    
 * Make a table based calendar and give it appropriate identifiers
 
 * Create the tables in the database
@@ -40,10 +36,19 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
     Events table
     
 * Link the databases to the pages that need them
+    All: Session vars for if logged in
+    CreateEvent -> Users: who made it, Events: all
+    CreateAccount -> Users: all
+    About Us -> Events: locations for map
+    Calendar -> Events: all
+    Login -> Users
     
+* Set up sessions for tracking user if logged in
     
 --DONE--
 * Create the logo and save as an image (Alannah Nov 17th)
+* Convert all HTML files to PHP files (Alannah Nov 17th) [LATE]
+* Encapsulate header, footer, and nav code and include on each PHP page (Alannah Nov 20th)
 
 
 

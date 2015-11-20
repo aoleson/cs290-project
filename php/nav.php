@@ -1,12 +1,20 @@
-<nav>
-	&nbsp;&nbsp;<a class="" href="./index.html">Home</a>
-	&nbsp;  |  &nbsp;
-	<a class="" href="./about.html">About</a>
-	&nbsp;  |  &nbsp;
-	<a class="" href="./login.html">Login</a>
-	&nbsp;  |  &nbsp;
-	<a class="" href="./createAccount.html">Create an Account</a>
-	&nbsp;  |  &nbsp;
-	<a class="" href="./calendar.html">Public Calendar</a>
+<div class="non-semantic-protector">
+<section class="ribbon">
+	<nav class="ribbon-content">
+	&nbsp;&nbsp;<a class="nav" href="./index.php">&#10029 Home</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./about.php">&#10029 About</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./login.php">&#10029 Login</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./createAccount.php">&#10029 Create an Account</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./createEvent.php">&#10029 Add an Event</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./calendar.php">&#10029 Public Calendar</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./logout.php">&#10029 Logout</a>
 	&nbsp;  
-</nav>
+    </nav>
+</section>
+</div>

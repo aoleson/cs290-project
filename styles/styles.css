@@ -1,8 +1,40 @@
-/*  Name: Alannah Oleson, Corynna Park
-    Date modified: 11/12/15
-    Filename: styles.css
-    */
+body {
+    background-color: #FDF5E6;
+    font-family:'Gudea', sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
 
+header { 
+    text-align: center;
+}
+p.ss{
+    color: #FDF5E6;
+}
+img.ss {
+    max-width: 540px;
+    max-height: 320px;
+    height:auto;
+    width:auto;
+    margin: auto;
+    display: block;
+    padding:1px;
+    border: 1px solid #021a40;
+    background-color:black;
+}
+img.login {
+    max-width: 600px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin:auto;
+    display:block;
+     padding:1px;
+    border: 1px solid #021a40;
+    background-color:black;
+}
 .white_bkgrnd {
     width:80%;
     margin:auto;
@@ -12,38 +44,114 @@
     padding:10px;
 }
 
+h1 {
+    text-align: center;
+}
 .centered {
     text-align:center;
     margin:5px;
 }
 
+footer {
+    text-align:center;
+    text-decoration: none;
+}
+
 .centered_image {
+    
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* nav {
+/*nav {
     text-align:center;
-    font-family:sans-serif;
     font-weight:bolder;
     margin:auto;
     padding:5px;
-    width:80%;
-    background-color:white;
-    border:1px solid black;
-    border-radius:20px;
-} */
+}*/
 
-nav {
-    text-align:center;
-    font-weight:bolder;
-    margin:auto;
-    padding:5px;
+a.nav {
+	text-decoration: none;
+	color: white;
 }
 
+a.nav:hover {
+    margin-top: 2px;
+    color: blue;
+}
+
+.ribbon {
+ font-size: 16px !important;
+ width: 65%;
+ position: relative;
+ background: black;
+ color: white;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid black;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: black transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+
+.non-semantic-protector { 
+    position: relative; 
+    z-index: 1; 
+}
+
+#logo {
+    max-width: 450px;
+    max-height: 450px;
+    height:auto;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -80px;
+}
 #googleMap {
-    width:75%;
-    height:400px;
+    width:540px;
+    height:300px;
     margin:auto;
+}
+
+a.foot {
+    color: blue;
+    text-decoration: none;
+}
+
+a.foot:hover {
+    color: orange;
 }
