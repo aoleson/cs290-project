@@ -29,11 +29,18 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
     the createEvent
     the createAccount
     
-* Make a table based calendar and give it appropriate identifiers
+* Write desciptions/words for all pages (evolving as needed) (Cory By testing phase)
+    
+* Make a Search page that allows users to query the database (replaces the calendar)
+    Default to showing all events
+    Be able to filter by user input criteria
 
-* Create the tables in the database
+* Create the tables in the database (Alannah Nov 23rd)
     Users table
     Events table
+     
+* Create a list of events to add to the database
+    also add them when the create events page is finalized
     
 * Link the databases to the pages that need them
     All: Session vars for if logged in
