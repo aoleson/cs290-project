@@ -14,6 +14,9 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 ------------ToDo-----------------
 
 * Make the createEvent page form (including the map) (Alannah Nov 15th) [LATE]
+    Add isPublic bool checkbox
+    
+* Make a "My events" page for the user's private events
 
 * Put the map onto the about us page (Alannah Nov 17th) [LATE]
 
@@ -51,6 +54,16 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
     Login -> Users
     
 * Set up sessions for tracking user if logged in
+
+* 5 JS functions 
+    4 for the slideshow
+    1 for mapScript
+    1+ somewhere
+    1? in mapSearch
+    
+
+
+
     
 --DONE--
 * Create the logo and save as an image (Alannah Nov 17th)

@@ -3,10 +3,11 @@
 	<!-- Home page for freeFoodAtOSU.com
 		Name: Alannah Oleson, Corynna Park
 		Date modified: 11/12/15
-		Filename: index.html
+		Filename: index.php
 	-->
 	<head>
 		<title>freeFoodAtOSU.com</title>
+		<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
 	    <link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="./styles/styles.css"/>
 		<script src="./js/SSproject.js"></script>
@@ -26,11 +27,6 @@
             <p>Hello words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
         </section>
         <br/>
-        <section class ="centered">
-            <button type="button">Campus Map</button>
-            <button type="button">Calendar Preview</button>
-            <button type="button">Become a member today!</button>
-        </section>
         <?php include "./php/footer.php"; ?>
 	</body>
 

@@ -7,7 +7,8 @@
 	-->
 	<head>
 		<title>Create an Account</title>
-			<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+		<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="./styles/styles.css"/>
 	</head>
 	
@@ -72,13 +73,13 @@
 					<input type="radio" form="create_form" name="sex" value="no">Prefer not to answer
 				</td>
 				<td>
-					<label>Choose your country</label><br/>
+					<label>Choose your town</label><br/>
 					<select form="create_form" name="country">
-						<option value="USA">USA</option>
-						<option value="Canada">Canada</option>
-						<option value="Mexico">Mexico</option>
-						<option value="Germany">Germany</option>
-						<option value="Sweden">Sweden</option>
+						<option value="Corvallis">Corvallis</option>
+						<option value="Albany">Albany</option>
+						<option value="Philomath">Philomath</option>
+						<option value="Newport">Newport</option>
+						<option value="Eugene">Eugene</option>
 						<option value="Other">Other</option>
 					</select>
 				</td>

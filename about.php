@@ -7,6 +7,7 @@
 	-->
 	<head>
 		<title>About Us</title>
+		<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
 		<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="./styles/styles.css"/>
 		<script src="https://maps.googleapis.com/maps/api/js"></script>

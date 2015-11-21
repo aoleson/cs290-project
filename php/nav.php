@@ -11,7 +11,9 @@
 	&nbsp; &nbsp;
 	<a class="nav" href="./createEvent.php">&#10029 Add an Event</a>
 	&nbsp; &nbsp;
-	<a class="nav" href="./calendar.php">&#10029 Public Calendar</a>
+	<a class="nav" href="./search.php">&#10029 Public Events Search</a>
+	&nbsp; &nbsp;
+	<a class="nav" href="./calendar.php">&#10029 My Calendar</a>
 	&nbsp; &nbsp;
 	<a class="nav" href="./logout.php">&#10029 Logout</a>
 	&nbsp;  

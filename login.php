@@ -7,7 +7,8 @@
 	-->
 	<head>
 		<title>Log In</title>
-			<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
+		<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="./styles/styles.css"/>
 	</head>
 	
@@ -17,10 +18,10 @@
 	<h1 id="">Log In Page</h1>
         <br/><br/>
         <section class="">
-            <img class="login" alt="image doesn't point to anything right now" src="./images/OSU.jpg"/>
+            <img class="login" alt="OSU" src="./images/OSU.jpg"/>
         </section>
         <br/>
-        <section class="">
+        <section style="text-align:center" class="">
             <form method="" action="" id="login_form"></form>
         	<h2 class="">Log In</h2>
         	
@@ -29,18 +30,16 @@
 			<br/><br/>
 			<label>Password</label><br/>
 			<input type="password" form="login_form" name="password"/>
-			
+			<br/>
+			<button type="submit" form="login_form">Log In</button>
 			<br/><br/>
 			
 			<p>
-			    <a href="#">Forgot username?</a>
-			    <br/>
-			    <a href="#">Forgot password?</a>
+			    <a href="./createAccount.php">Create an Account</a>
 			</p>
-			
-			<button type="submit" form="login_form">Log In</button>
         	
         </section>
+        <br/><br/>
         <?php include "./php/footer.php"; ?>
 	</body>
 
