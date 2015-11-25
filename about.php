@@ -17,7 +17,7 @@
 	<body>
 	<?php include "./php/header.php"; ?>
 	<?php include "./php/nav.php"; ?>
-	<h1 id="">About Us</h1>
+	<h1>About Us</h1>
         <br/><br/>
         <div id="googleMap"></div>
         <section class="centered">

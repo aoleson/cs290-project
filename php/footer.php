@@ -32,5 +32,6 @@ echo
     <a class="foot" href="./calendar.php">My Calendar</a> &nbsp;  |  &nbsp;
     <a class="foot" href="./logout.php">Logout</a> &nbsp;
     &nbsp; &nbsp; &nbsp; &copy;2015 by A. Oleson, C. Park 
+    <br/>
     </footer>';
 ?>

@@ -12,9 +12,6 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 
 
 ------------ToDo-----------------
-
-* Make the createEvent page form (including the map) (Alannah Nov 15th) [LATE]
-    Add isPublic bool checkbox
     
 * Make a "My events" page for the user's private events
 
@@ -56,7 +53,7 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 * Set up sessions for tracking user if logged in
 
 * 5 JS functions 
-    4 for the slideshow
+    3 for the slideshow
     1 for mapScript
     1+ somewhere
     1? in mapSearch
@@ -69,6 +66,8 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 * Create the logo and save as an image (Alannah Nov 17th)
 * Convert all HTML files to PHP files (Alannah Nov 17th) [LATE]
 * Encapsulate header, footer, and nav code and include on each PHP page (Alannah Nov 20th)
+* Make the createEvent page form (including the map) (Alannah Nov 15th) [LATE]
+    Add isPublic bool checkbox
 
 
 

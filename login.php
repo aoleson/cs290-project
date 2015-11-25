@@ -15,7 +15,7 @@
 	<body>
 		<?php include "./php/header.php"; ?>
 		<?php include "./php/nav.php"; ?>
-	<h1 id="">Log In Page</h1>
+	<h1>Log In Page</h1>
         <br/><br/>
         <section class="">
             <img class="login" alt="OSU" src="./images/OSU.jpg"/>

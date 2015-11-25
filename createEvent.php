@@ -9,16 +9,15 @@
 		<title>Add an Event</title>
 		<link href="./images/favicon.ico" rel="icon" type="image/x-icon" />
 		<link href='https://fonts.googleapis.com/css?family=Gudea' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="./styles/styles.css"/>
 		<link rel="stylesheet" href="./googleMaps/searchStyles.css"/>
+		<link rel="stylesheet" href="./styles/styles.css"/>
 	</head>
 	
 	<body>
 	<?php include "./php/header.php"; ?>
 	<?php include "./php/nav.php"; ?>
-	<h1 id="">Add an Event</h1>
-        <br/>
-        <section class="">
+	<h1>Add an Event</h1>
+        <section>
         
         	<form method="" action="" id="event_form"></form>
         	<h3 class="centered">Add an event to our database!</h3>
@@ -59,12 +58,10 @@
 					<input type="time" form="event_form" name="eventTime"> <br/><br/>
 					<label>Enter your location into the map search below...</label></br>
 					Copy and paste the Place ID you get here: <input type="text" form="event_form" name="eventLocation"/></br>
-						<input id="pac-input" class="controls" type="text"
-        placeholder="Enter a location">
-    <div id="map"></div>
-    <script src="./googleMaps/mapSearch.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACOL-drTivOq2gQi5cBFtKHNcBiG2jrF8&libraries=places&signed_in=true&callback=initMap"
-        async defer></script>
+					<br/>
+					<div>
+						<iframe id="iframe_map" src="./googleMaps/mapTest.html"></iframe>
+					</div>
 			</fieldset>
 			<br/><br/>
 			

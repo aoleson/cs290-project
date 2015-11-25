@@ -15,7 +15,7 @@
 	<body>
 		<?php include "./php/header.php"; ?>
 		<?php include "./php/nav.php"; ?>
-		<h1 id="name">Create an Account</h1>
+		<h1>Create an Account</h1>
 		
         <br/><br/>
         <img class="login" src="./images/oregon_state.jpg" alt="logo goes here"/>

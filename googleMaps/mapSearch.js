@@ -5,8 +5,9 @@
 
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -33.8688, lng: 151.2195},
-    zoom: 13
+    center: {lat: 44.564111, lng: -123.279565},
+    zoom: 15,
+    mapTypeId:google.maps.MapTypeId.HYBRID
   });
 
   var input = document.getElementById('pac-input');

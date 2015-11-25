@@ -17,8 +17,7 @@
 	<body>
 	<?php include "./php/header.php"; ?>
 	<?php include "./php/nav.php"; ?>
-	<h1 id="">Calendar of Events</h1>
-	<br/>
+	<h1>Calendar of Events</h1>
         <div id="cal">
             <div class="container">
                 <div class="controls">

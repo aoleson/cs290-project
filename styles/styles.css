@@ -82,8 +82,8 @@ a.nav:hover {
 }
 
 .ribbon {
- font-size: 16px !important;
- width: 65%;
+ font-size: 17px !important;
+ width: 75%;
  position: relative;
  background: black;
  color: white;
@@ -148,10 +148,17 @@ a.nav:hover {
 }
 
 a.foot {
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 
 a.foot:hover {
     color: orange;
 }
+
+#iframe_map {
+    width:600px;
+    height:450px;
+}
+    
+    

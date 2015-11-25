@@ -13,13 +13,15 @@
 		<script src="./js/SSproject.js"></script>
 	</head>
 	
-	<body>
+	<body onload="set_pic(0)">
 		<?php include "./php/header.php"; ?>
 		<?php include "./php/nav.php"; ?>
         <section class="centered">
-            <h1 id="">Welcome to Free Food @ OSU!</h1>
-            <br/><br/>
-            <img class="ss" onload="slideShow()" id="image" alt="image doesn't point to anything right now" src="./images/Weatherford.jpg"/>
+            <h1>Welcome to Free Food @ OSU!</h1>
+            <p class="ss" id="which">0</p>
+            <img class="ss" id="image" alt="image doesn't point to anything right now" src="./images/Weatherford.jpg"/>
+            <p></p><button type="button" onclick="prev()">Prev</button> &nbsp; &nbsp;
+            <button type="button" onclick="next()">Next</button></p>
         </section>
         <br/>
         <section class="centered">
