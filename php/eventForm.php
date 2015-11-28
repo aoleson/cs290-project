@@ -1,49 +1,49 @@
-echo '<form method="" action="" id="event_form"></form>';
-	echo '<h3 class="centered">Add an event to our database!</h3>';
+<form method="" action="" id="event_form"></form>
+	<h3 class="centered">Add an event to our database!</h3>'
 	
-	echo '<br/><br/>';
-	echo '<fieldset>';
-		echo '<legend>General Info</legend>';
-		echo '<label>Name of Event</label><br/>';
-		echo '<input type="text" form="event_form" name="eventName"/><br/><br/>';
-		echo '<label>Username of Event Creator (You!)</label><br/>';
-		echo '<input type="text" form="event_form" name="userCreated"/><br/><br/>';
-		echo '<label>Group/Organization</label><br/>';
-		echo '<input type="text" form="event_form" name="group"/>';
-		echo '&nbsp; &nbsp;<input type="checkbox" form="event_form" name="member"> You must be a member of this group to attend.<br/><br/>';
-		echo '<label>Should this event be private or public?</label><br/>';
-		echo '<input type="checkbox" form="event_form" name="private"> I want this to be a private event.<br/>';
-	echo '</fieldset>';
-	echo '<br/><br/>';
-	echo '<fieldset>';
-			echo '<legend>What kind of food?</legend>';
-			echo '<input type="checkbox" form="event_form" name="coffee"> Coffee<br/>';
-			echo '<input type="checkbox" form="event_form" name="drinks"> Other drinks (soda, mocktails, etc.)<br/>';
-			echo '<input type="checkbox" form="event_form" name="doughnuts"> Doughnuts<br/>';
-			echo '<input type="checkbox" form="event_form" name="breakfast"> Breakfast foods (pastries, etc)<br/>';
-			echo '<input type="checkbox" form="event_form" name="pizza"> Pizza<br/>';
-			echo '<input type="checkbox" form="event_form" name="bbq"> BBQ<br/>';
-			echo '<input type="checkbox" form="event_form" name="dinner"> Other dinner foods (spaghetti, etc.)<br/>';
-			echo '<input type="checkbox" form="event_form" name="popcorn"> Popcorn<br/>';
-			echo '<input type="checkbox" form="event_form" name="snacks"> Other snacks (chips, etc.)<br/>';
-			echo '<input type="checkbox" form="event_form" name="candy"> Candy<br/>';
-	echo '</fieldset>';
-	echo '<br/><br/>';
-	echo '<fieldset>';
-			echo '<legend>Logistics</legend>';
-			echo '<label>Date</label></br>';
-			echo '<input type="date" form="event_form" name="eventDate"> <br/><br/>';
-			echo '<label>Time</label><br/>';
-			echo '<input type="time" form="event_form" name="eventTime"> <br/><br/>';
-			echo '<label>Enter your location into the map search below...</label></br>';
-			echo 'Copy and paste the Place ID you get here: <input type="text" form="event_form" name="eventLocation"/></br>';
-			echo '<br/>';
-			echo '<div>';
-				echo '<iframe id="iframe_map" src="./googleMaps/mapTest.html"></iframe>';
-			echo '</div>';
-	echo '</fieldset>';
-	echo '<br/><br/>';
+	<br/><br/>
+	<fieldset>
+		<legend>General Info</legend>
+		<label>Name of Event</label><br/>
+		<input type="text" form="event_form" name="eventName"/><br/><br/>
+		<label>Username of Event Creator (You!)</label><br/>
+		<input type="text" form="event_form" name="userCreated"/><br/><br/>
+		<label>Group/Organization</label><br/>
+		<input type="text" form="event_form" name="group"/>
+		&nbsp; &nbsp;<input type="checkbox" form="event_form" name="member"> You must be a member of this group to attend.<br/><br/>
+		<label>Should this event be private or public?</label><br/>
+		<input type="checkbox" form="event_form" name="private"> I want this to be a private event.<br/>
+	</fieldset>
+	<br/><br/>
+	<fieldset>
+			<legend>What kind of food?</legend>
+			<input type="checkbox" form="event_form" name="coffee"> Coffee<br/>
+			<input type="checkbox" form="event_form" name="drinks"> Other drinks (soda, mocktails, etc.)<br/>
+			<input type="checkbox" form="event_form" name="doughnuts"> Doughnuts<br/>
+			<input type="checkbox" form="event_form" name="breakfast"> Breakfast foods (pastries, etc)<br/>
+			<input type="checkbox" form="event_form" name="pizza"> Pizza<br/>
+			<input type="checkbox" form="event_form" name="bbq"> BBQ<br/>
+			<input type="checkbox" form="event_form" name="dinner"> Other dinner foods (spaghetti, etc.)<br/>
+			<input type="checkbox" form="event_form" name="popcorn"> Popcorn<br/>
+			<input type="checkbox" form="event_form" name="snacks"> Other snacks (chips, etc.)<br/>
+			<input type="checkbox" form="event_form" name="candy"> Candy<br/>
+	</fieldset>
+	<br/><br/>
+	<fieldset>
+			<legend>Logistics</legend>
+			<label>Date</label></br>
+			<input type="date" form="event_form" name="eventDate"> <br/><br/>
+			<label>Time</label><br/>
+			<input type="time" form="event_form" name="eventTime"> <br/><br/>
+			<label>Enter your location into the map search below...</label></br>
+			Copy and paste the Place ID you get here: <input type="text" form="event_form" name="eventLocation"/></br>
+			<br/>
+			<div>
+				<iframe id="iframe_map" src="./googleMaps/mapTest.html"></iframe>
+			</div>
+	</fieldset>
+	<br/><br/>
 	
-echo '<br/>';
-echo '<button type="submit" form="event_form"><img alt="Green checkmark" src="./images/button_ok.png"/>Create my Event!</button>';
-echo '</br>';
+<br/>
+<button type="submit" form="event_form"><img alt="Green checkmark" src="./images/button_ok.png"/>Create my Event!</button>
+</br>
