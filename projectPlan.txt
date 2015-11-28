@@ -4,6 +4,7 @@
 HTML done: Nov 15th (Sunday)
 CSS done: Nov 20th (Friday)
 JS/plugins/APIs done: Nov 20th (Friday)
+
 PHP/mySQL done: Nov 27th (Friday)
 Everything done: Nov 29th (Sunday)
 Testing done: Dec 1st (Tuesday) (drop dead)
@@ -14,30 +15,12 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 ------------ToDo-----------------
     
 * Make a "My events" page for the user's private events
-
-* Put the map onto the about us page (Alannah Nov 17th) [LATE]
-
-* Create JS slideshow for homepage and put it on there (Cory Nov 20th)
-    Get at least 5 images
-    Do JS code that allows for advancing on a timer
-
-* Make the CSS for (Cory Nov 20th)
-    the homepage
-    the about us page
-    the calendar
-    the login/logout pages
-    the createEvent
-    the createAccount
     
 * Write desciptions/words for all pages (evolving as needed) (Cory By testing phase)
     
 * Make a Search page that allows users to query the database (replaces the calendar)
     Default to showing all events
     Be able to filter by user input criteria
-
-* Create the tables in the database (Alannah Nov 23rd)
-    Users table
-    Events table
      
 * Create a list of events to add to the database
     also add them when the create events page is finalized
@@ -55,8 +38,8 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 * 5 JS functions 
     3 for the slideshow
     1 for mapScript
-    1+ somewhere
-    1? in mapSearch
+    1 in mapSearch
+    ?? for password validator, other AJAX calls
     
 
 
@@ -68,6 +51,21 @@ Submission date: Dec 2nd, 11:59pm (Wednesday) (drop dead)
 * Encapsulate header, footer, and nav code and include on each PHP page (Alannah Nov 20th)
 * Make the createEvent page form (including the map) (Alannah Nov 15th) [LATE]
     Add isPublic bool checkbox
+* Put the map onto the about us page (Alannah Nov 17th) [LATE]
+* Create the tables in the database (Alannah Nov 23rd)
+    Users table
+    Events table
+* Make the CSS for (Cory Nov 20th)
+    the homepage
+    the about us page
+    the calendar
+    the login/logout pages
+    the createEvent
+    the createAccount
+* Create JS slideshow for homepage and put it on there (Cory Nov 20th)
+    Get at least 5 images
+    Do JS code that allows for advancing on a timer
+
 
 
 
