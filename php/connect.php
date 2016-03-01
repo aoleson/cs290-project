@@ -10,6 +10,6 @@
 	mysql_select_db(DBNAME, $dbc)
 		or die("Error selecting database: " . DBNAME);
 
-	echo 'Successfully connected to database!';
+	//echo 'Successfully connected to database!';
 	
 ?>

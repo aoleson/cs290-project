@@ -21,10 +21,10 @@
 	    unset($_SESSION['valid_user']);
 	    session_destroy();
 		if (!empty($old_user)) {
-		    echo '<h1>Thanks '.$old_user.' for stopping by!</h1><br/><br/><br/>';
+		    echo '<h1 class="centered">Thanks <span style="color:orange">'.$old_user.'</span> for stopping by!</h1><br/><br/><br/>';
 		} 
 		else {
-			echo '<h2>You were not logged in!<br/><br/><br/></h2>';
+			echo '<h2 class="centered">You were not logged in!<br/><br/><br/></h2>';
 		}
 	//	mysql_close($dbc);
 	?>

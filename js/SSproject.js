@@ -5,7 +5,7 @@
   function set_pic(which) {
 	
 	document.getElementById("image").src = images[which];
-	setTimeout(next, 5000);
+	setInterval(next, 5000);
 }
 
 //Increments which and sets the next image to be the currently displayed image
@@ -15,7 +15,8 @@ function next() {
 		which++;
 	else
 		which = 0;
-	set_pic(which);
+//	set_pic(which);
+    document.getElementById("image").src = images[which];
 	document.getElementById("which").innerHTML = which;
 }
 
@@ -26,7 +27,8 @@ function prev() {
 		which = 5;
 	else 
 		which--;
-	set_pic(which);
+//	set_pic(which);
+    document.getElementById("image").src = images[which];
 	document.getElementById("which").innerHTML = which;
 }
 

@@ -160,5 +160,39 @@ a.foot:hover {
     width:600px;
     height:450px;
 }
-    
-    
+
+#events_table, #events_table td {
+	text-align:center;
+	margin:auto;
+	border: 1px solid black;
+	width: 85%;
+}
+
+#events_table th {
+	background-color: black;
+	color: white;
+	text-align:center;
+	margin:auto;
+	border: 1px solid black;
+	width: 85%;
+}
+#userInfo, td, th {
+	text-align: left;
+    border: none;
+	margin-left: 0px;
+	width: auto;
+}
+
+th {
+    height: 40px;
+}
+
+p.error {
+	color: red;
+	font-size: 12pt;
+}
+
+h4.valid {
+	color: green;
+	text-align: center;
+}

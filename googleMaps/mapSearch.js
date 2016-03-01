@@ -47,7 +47,7 @@ function initMap() {
     marker.setVisible(true);
 
     infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-        'Place ID: ' + place.place_id + '<br>' +
+        'Coordinates: ' + place.geometry.location + '<br>' +
         place.formatted_address);
     infowindow.open(map, marker);
   });

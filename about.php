@@ -20,17 +20,17 @@
 	<h1>About Us</h1>
         <br/><br/>
         <div id="googleMap"></div>
+		<br/>
         <section class="centered">
-            <h3>Words (description?)</h3>
-            <p>words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
+            <h3>&nbsp; &nbsp;"If you really want to make a friend, go to someone's house and eat with him… the people who give you their food give you their heart." -Cesar Chavez &nbsp; &nbsp;</h3>
+            <p>An idea started in a web development class at Oregon State University, freeFood@OSU is a student founded organization that strives to enrich the lives of students and the community through the universal love of food. Our site is based on the belief that college students have a single, unifying need; to survive. We hope that our site will enable students to better survive the hunger struggle that we all know too well. FreeFood@OSU is a site for the OSU community, made possible by the OSU community. Whether you're here to reap from its contributions, or make some contributions of your own, thank you for empowering the success of this site. Feel free to spread the word! Cause who doesn't love free food? </p>
         </section>
-        <br/><br/>
-        <section class ="centered">
-            <button type="button">Become a member today!</button>
-        </section>
+        
+        <p class ="centered">
+            <a href="./createAccount.php">Become a member today!</a>
+        </p>
         <?php include "./php/footer.php"; ?>
 	</body>
 	
-	<!--Hey Amber-->
 
 </html>

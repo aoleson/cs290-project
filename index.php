@@ -20,13 +20,10 @@
             <h1>Welcome to Free Food @ OSU!</h1>
             <p class="ss" id="which">0</p>
             <img class="ss" id="image" alt="image doesn't point to anything right now" src="./images/Weatherford.jpg"/>
-            <p></p><button type="button" onclick="prev()">Prev</button> &nbsp; &nbsp;
+            <p><button type="button" onclick="prev()">Prev</button> &nbsp; &nbsp;
             <button type="button" onclick="next()">Next</button></p>
-        </section>
         <br/>
-        <section class="centered">
-            <h3 class="">Words (description?)</h3>
-            <p>Hello words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words words </p>
+            <p>FreeFood@OSU is an online resource for hungry students. Through the participation of the student community, we provide the date, time, and location of various events throughout campus that provide free food. To the public, we offer information for all public events that are created on this site. Members have the ability to add events to the calendar as well as have the option to make events private. Along with memership comes a private events calendar generated specially for you! Create an account to access all the features that freeFood@OSU has to offer! </p>
         </section>
         <br/>
         <?php include "./php/footer.php"; ?>
